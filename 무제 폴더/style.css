@@ -1,0 +1,95 @@
+body {
+  width: 40%;
+  border: 3px solid blue;
+}
+.playlist-bar {
+  display: flex;
+  align-items: center;
+}
+.playlist-bar__column {
+  width: 33%;
+}
+.playlsit-bar__column:first-child {
+  display: flex;
+  justify-content: flex-start;
+}
+
+.playlist-header {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.playlist-header__album {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 150px;
+  height: 150px;
+  background-color: rgba(235, 158, 43, 0.932);
+  border-radius: 10px;
+}
+.album-border {
+  border: 2px solid black;
+}
+.playlist-header__name {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.playlist-button {
+  display: flex;
+  justify-content: space-between;
+}
+.button-border {
+  border: 2px solid black;
+}
+.playlist-button__rectangullar {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100px;
+  width: 150px;
+}
+.fa-play {
+  margin-left: 5px;
+}
+.playlist-button__circle {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100px;
+  width: 100px;
+  border-radius: 50%;
+}
+.playlist-list {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.playlist-list__element {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.playlist-list__album {
+  height: 50px;
+  width: 50px;
+  border-radius: 5px;
+}
+.playlist-list__element__name {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.playlist-list__element:first-child {
+  background-color: coral;
+}
+.playlist-list__elemnet:nth-child(2) > .playlist-list__album {
+  background-color: pink;
+}
+.playlist-list__album:nth-child(3) {
+  background-color: blue;
+}
+.playlist-list__album:last-child {
+  background-color: turquoise;
+}
